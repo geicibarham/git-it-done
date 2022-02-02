@@ -23,7 +23,7 @@ var formSubmitHandler = function(event) {
 
 var getUserRepos = function(user) {
   // format the github api url
-  var apiUrl = 'https://api.github.com/users/' + user + '/repos';
+  var apiUrl = 'https://api.github.com/users/';
 
   // make a get request to url
   fetch(apiUrl)
